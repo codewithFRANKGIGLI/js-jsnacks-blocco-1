@@ -4,13 +4,13 @@ const numbers = [];                                                     // Array
 
 for (let i = 0; i < 10; i++) {
   const randomNumber = Math.floor(Math.random() * 100) + 1;             // Genero i numeri casualmente
-  numbers.push(randomNumber);                                           // Li push nell'array
+  numbers.push(randomNumber);                                           // Li pusho nell'array
 }
 
 let max = numbers[0];
 
 for (let i = 1; i < numbers.length; i++) {
-  if (numbers[i] > max) {                                               // Confronto ogni elemento stabilento il maggiore
+  if (numbers[i] > max) {                                               // Confronto ogni elemento stabilendo il maggiore
     max = numbers[i];
   }
 }
